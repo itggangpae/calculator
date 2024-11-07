@@ -20,6 +20,7 @@ pipeline{
             steps{
                 sh "./gradlew jacocoTestCoverageVerification"
                 sh "./gradlew jacocoTestReport"
+            }
         }
     }
 }
